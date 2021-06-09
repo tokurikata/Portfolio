@@ -10,6 +10,7 @@ body{
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;  
+    
 }
 *{
     margin: 0;
@@ -37,6 +38,7 @@ body{
 .section{
     /* background-color: #f2f2fc; */
     /* background-color: #7d7d7d; */
+    
     min-height: 100vh;
     display: block;
     padding: 0 30px;
@@ -45,7 +47,18 @@ body{
 
 .main-content{
     padding-left: 270px;
+    /* background-color: #9a9ae7; */
+    /* background-image: url("Images/background\ image.jpg"); */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-attachment: fixed; */
 }
+
+
+
+
 .container{
     max-width: 1100px;
     width: 100%;
@@ -297,9 +310,11 @@ section{
     padding-left: 200px;
     line-height: 40px;
     font-size: 20px;
+    color: white;
 }
 .content span{
     font-weight: bold;
+    color: black;
 }
 .two-column{
     /* background-color: rgb(120, 235, 92); */
@@ -310,18 +325,17 @@ section{
     border-radius: 25px;
 }
 .column-title{
-    background: rgb(130, 123, 219);
-    border-radius: 25px;
+    /* background: rgb(130, 123, 219); */
+    /* border-radius: 25px; */
     margin: 5px;
-    
     text-align: center;
     font-weight: 700;
     padding-bottom: 20px;
     font-size: 25px;
 }
 .primary-me{
-    background-color: rgb(70, 145, 180);
-    border-style: solid;
+    background-color: rgb(207, 204, 253);
+    /* border-style: solid; */
     border-radius: 25px;
     width: 50%;
     margin: 10px;
@@ -333,8 +347,8 @@ section{
     
 }
 .insight{
-    background-color: rgb(70, 145, 180);
-    border-style: solid;
+    background-color: rgb(207, 204, 253);
+    /* border-style: solid; */
     border-radius: 25px;
     width: 50%;
     margin: 10px;
@@ -518,7 +532,16 @@ section{
     
 }
 .contact div{
-    padding: 25px;
+    padding: 20px;
+}
+.contact-data{
+    color: rgb(196, 245, 21);
+    font-weight: 700;
+    font-size: 20px;
+}
+.contact-data .title{
+    color: darkblue;
+    font-size: 30px;
 }
 
 .socialmedia-contact{
@@ -526,21 +549,21 @@ section{
     word-spacing: 10px;
     
 }
-.socialmedia-contact a{
-    height: 35px;
-    width: 35px;
-    
+
+.socialmedia-contact a {
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
     display: block;
     text-align: center;
-    line-height: 35px;
+    line-height: 50px;
     background-color: #b32171;
     color: #ffffff;
     margin: 0;
-    border-radius: 50%;
+    border-radius: 10px;
     text-decoration: none;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    
 }
 .socialmedia-contact a:hover{
     -webkit-transform: scale(1.1);
