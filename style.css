@@ -94,9 +94,11 @@ body{
 
 
 .main-content{
-    padding-left: 270px;
-    background: url("file:///D:/WebSite/New%20Portfolio/Images/bg.jpg");
+    /* background: url("file:///D:/WebSite/New%20Portfolio/Images/bg.jpg"); */
     /* background: url("Images/bg.jpg"); */
+    background: rgb(238,174,202);
+background: linear-gradient(249deg, rgba(238,174,202,1) 0%, rgba(153,136,127,1) 38%, rgba(111,109,135,1) 52%, rgba(119,99,117,1) 60%, rgba(39,49,61,1) 100%);
+    padding-left: 270px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -608,7 +610,7 @@ section{
     padding: 20px;
 }
 .contact-data{
-    color: rgb(214, 108, 108);
+    color: rgb(230, 190, 82);
     font-weight: 700;
     font-size: 20px;
 }
